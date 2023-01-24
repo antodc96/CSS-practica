@@ -1,0 +1,18 @@
+body {
+    /* color: red; */
+    /* background: yellow; */
+}
+
+p {
+    /* color: violet !important; */
+    color: violet;
+}
+
+.destacado {
+    color: green;
+    /* background: lightgrey; */
+}
+
+#segundo-parrafo {
+    color: blue;
+}

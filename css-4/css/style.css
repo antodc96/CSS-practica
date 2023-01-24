@@ -1,0 +1,36 @@
+body {
+    margin: 1em;
+}
+
+p {
+    /* background-color: darkorange; */
+    /* color: snow; */
+    /* width: 200px; */
+    height: 200%;
+    /* margin: .5em auto; */
+    padding: .5em;
+    /* padding: .5em 16px; */
+    /* padding: .5em 1em 2em; */
+    /* padding: 5px 10px 15px 20px; */
+    /* padding: 0 30px 0 0; */
+    /* padding-right: 30px; */
+    /* border: 1px dashed rgb(63, 53, 169); */
+    /* border-bottom: 1px solid blue; */
+    /* border-top: 3px dashed violet; */
+
+    /* border: 1px solid; */
+    /* border-radius: 10px; */
+    /* box-shadow: 1px 2px 3px gray; */
+    /* text-shadow: 1px 2px 3px gray; */
+
+    /* text-shadow: 10px 8px 2px red, 10px 12px #fcf, 
+                    -8px -12px #cfc, 
+                    12px -5px #fc9; */
+
+    /* margin: .5em 0;
+    margin-left: 2em; */
+
+    border: 1px solid blue;
+    outline: 1px solid red;
+    outline-offset: -5px;
+}

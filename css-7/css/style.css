@@ -1,0 +1,19 @@
+.btn {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkorange;
+    color: snow;
+    /* transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 2s; */
+    transition: background-color .5s, box-shadow 1s;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    box-shadow: 1px 2px 5px black;
+    border: 1px solid violet;
+}

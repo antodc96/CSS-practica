@@ -1,0 +1,22 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    border: 3px solid green;
+    width: 40%;
+}
+
+div {
+    border: 3px solid blue;
+    width: 50vw;
+    height: 50vh;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+span {
+    font-size: 1.5rem;
+}

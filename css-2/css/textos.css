@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Inspiration';
+    src: url('../fonts/Inspiration-Regular.ttf');  
+}
+
+body {
+    background-color: aqua;
+}
+
+section {
+    background-color: rgba(0, 255, 0, .5);
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+h2 {
+    color: darkorange;
+    font-family: 'Lora', serif;
+}
+
+p {
+    color: #727cbe;
+    /* font-family: 'Inspiration', sans-serif; */
+    display: inline-block;
+    width: 49%;
+}
+
+.bold {
+    font-weight: bold;
+    color: rgb(0, 128, 0);
+}
+
+strong {
+    font-weight: normal;
+}

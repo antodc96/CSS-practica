@@ -1,0 +1,21 @@
+:root {
+    --color-principal: darkorange;
+    --fuente-principal: Georgia, 'Times New Roman', Times, serif;
+    --borde: 1px solid blue;
+}
+
+h1 {
+    color: var(--color-principal, red);
+    font-family: var(--fuente-principal);
+    border: var(--borde);
+}
+
+small {
+    --color-principal: green;
+
+    color: var(--color-principal);
+}
+
+p {
+    color: var(--color-principal);
+}

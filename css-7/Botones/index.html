@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones</title>
+    <style>
+        body {
+            margin-top: 100px;
+        }
+
+        .btn {
+            background-color: darkorange;
+            color: snow;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            border-radius: 5px;
+            width: 150px;
+            height: 35px;
+            padding: 0;
+            box-shadow: 1px 1px 5px gray;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn span {
+            z-index: 1;
+        }
+
+        .btn-uno::after {
+            content: "";
+            width: 100%;
+            height: 100%;
+            background-color: #777bb3;
+            position: absolute;
+            top: -40px;
+            transition: .3s ease-in-out;
+        }
+
+        .btn-uno:hover::after {
+            top: 0;
+        }
+
+        .btn-dos::after {
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: -36px;
+            left: calc(-100% - 35px);
+            transition: 1s ease-in-out;
+
+            border-bottom: 36px solid #777bb3;
+            border-right: 36px solid transparent;
+        }
+
+        .btn-dos:hover:after {
+            left: 0;
+            transition: .3s ease-in-out;
+        }
+
+        .btn-tres::after {
+            content: "";
+            width: 100%;
+            height: 300%;
+            background-color: #777bb3;
+            position: absolute;
+            border-radius: 0 0 100px 100px;
+            top: -110px;
+            transition: .3s ease-in-out;
+        }
+
+        .btn-tres:hover:after {
+            top: 0;
+        }
+
+        .btn-cuatro span {
+            position: relative;
+            left: 0;
+            transition: .5s ease-in-out;
+        }
+
+        .btn-cuatro:hover span {
+            left: -25%;
+        }
+
+        .btn-cuatro svg {
+            fill: snow;
+            position: absolute;
+            right: 100%;
+            opacity: 0;
+            transition: .5s ease-in-out;
+        }
+
+        .btn-cuatro:hover svg {
+            right: 5%;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <button type="button" class="btn btn-uno">
+        <span>Botón 1</span>
+    </button>
+
+    <button type="button" class="btn btn-dos">
+        <span>Botón 2</span>
+    </button>
+
+    <button type="button" class="btn btn-tres">
+        <span>Botón 3</span>
+    </button>
+
+    <button type="button" class="btn btn-cuatro">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+            <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z" />
+        </svg>
+        <span>Botón 4</span>
+    </button>
+</body>
+
+</html>
